@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    
+}
+/* =========================== WELCOME SECTION ======================== */
+#welcome-sec{
+    height: 700px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 45%;
+    float: left;
+    padding: 10px 10px;
+    margin-left: 3%;
+}
+.half-width h1{
+    font-family: poppins;
+    font-size: 50px;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.half-width h2{
+    font-family: poppins;
+    font-size: 35px;
+    padding: 30px 20px;}
+.half-width span{
+    color:rgb(255,165,0);
+}
+.half-width p{
+    font-size: 20px;
+    padding: 40px 20px;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+}
+.half-width a:hover{
+    background-image: linear-gradient(45deg,cyan,#3899f6);
+    transition: 3s;
+}
+    /* =========================== DREAM-SEC ============================= */
+#dream-sec {
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+height: 600px;
+background-position: right;
+
+}
+#dream-sec .half-width h1,h2{
+    padding: 10px;
+}
+/* ============================ Experience section ============================= */
+#experience-sec {
+    height: 600px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 86px;
+    margin-top: 62px;
+    background-position: left;
+}
+#experience-sec h1{
+    font-size: 40px;    
+    padding: 0px 10px;
+    margin-left: 5px;
+}
+#experience-sec h1 span{
+    color: tomato;
+    font-size: 45px;
+}
+#experience-sec .half-width h1{
+    font-size: 41px;
+    font-weight: bolder;
+}
+#experience-sec .half-width h2{
+    font-size: 24px;
+     color:#FFA500;
+     padding-bottom: 0;
+}
+#experience-sec .exp-1{
+    float: left;
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, #fa9d78, #f54f31);
+    border-image-slice: 1;
+    width: 40%;
+    height: 70%;
+    padding: 20px 17px;
+    background-color: white;
+    margin: 41px 10px 10px 65px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+}
+#experience-sec .exp-2{
+    float: left;
+    border-left: 7px solid ;
+    padding: 20px 17px;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    width: 40%;
+    height: 70%;
+    background-color: white;
+    margin: 41px 10px 10px 65px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
